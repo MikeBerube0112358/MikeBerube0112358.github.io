@@ -17,6 +17,11 @@ header {
     padding: 20px;
 }
 
+.header-container {
+    max-width: 800px; /* Limit the width of the header content */
+    margin: 0 auto; /* Center the header content */
+}
+
 header h1 {
     color: #00ff00; /* Bright green color */
     font-size: 3em;
@@ -44,6 +49,10 @@ nav a:hover {
 }
 
 /* Social Icons */
+.social {
+    text-align: center; /* Center social icons horizontally */
+}
+
 .social a {
     color: #8ae3ff; /* Light blue color */
     font-size: 1.5em;
@@ -77,12 +86,12 @@ nav a:hover {
 }
 
 .picture_frame {
-    padding: 10px; /* Space between the image and the border */
-    background-color: #f0f0f0; /* Light gray background */
-    border: 2px solid #ddd; /* Light gray border */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    display: inline-block; /* Keeps the frame size close to the image size */
-    border-radius: 8px; /* Rounded corners */
-    max-width: 100%; /* Ensures the image doesn't overflow */
-    margin-bottom: 20px; /* Space below the image */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    border-radius: 8px;
+    width: 600px; /* Fixed width for all images */
+    margin-bottom: 20px;
 }
