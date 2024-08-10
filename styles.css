@@ -1,42 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1e24;
+    color: #fff;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: lightblue;
 }
 
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+/* Header Styling */
 header {
-    background: #333;
-    color: #3780cf;
-    padding: 1rem 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
+    text-align: left;
     padding: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
+header h1 {
+    color: #00ff00; /* Bright green color */
+    font-size: 3em;
+}
+
+header h2 {
+    color: #cc99ff; /* Light purple color */
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav a {
+    color: #8ae3ff; /* Light blue color */
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social a {
+    color: #8ae3ff; /* Light blue color */
+    font-size: 1.5em;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social a:hover {
     color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+/* Section Styling */
+.miscellanea, .dot-plan, .highlight {
+    margin: 20px;
+}
+
+.miscellanea h3, .dot-plan h3 {
+    color: #cc99ff; /* Light purple color */
+}
+
+.highlight p {
+    font-size: 2em;
+    color: #cc99ff; /* Light purple color */
+}
+
+/* Image Styling */
+.highlight img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.picture_frame {
+    padding: 10px; /* Space between the image and the border */
+    background-color: #f0f0f0; /* Light gray background */
+    border: 2px solid #ddd; /* Light gray border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: inline-block; /* Keeps the frame size close to the image size */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 100%; /* Ensures the image doesn't overflow */
+    margin-bottom: 20px; /* Space below the image */
 }
