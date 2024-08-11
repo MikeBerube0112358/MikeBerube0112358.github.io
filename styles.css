@@ -42,10 +42,14 @@ nav a {
     color: #8ae3ff; /* Light blue color */
     margin-right: 15px;
     text-decoration: none;
+    padding: 10px; /* Adds space inside the borders */
+    border: 2px solid #8ae3ff; /* Light blue border */
+    border-radius: 5px; /* Rounded corners */
 }
 
 nav a:hover {
     text-decoration: underline;
+    border-color: #fff; /* Changes border color on hover */
 }
 
 /* Social Icons */
