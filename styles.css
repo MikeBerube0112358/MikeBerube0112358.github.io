@@ -42,9 +42,11 @@ nav a {
     color: #8ae3ff; /* Light blue color */
     margin-right: 15px;
     text-decoration: none;
-    padding: 5px; /* Adds space inside the borders */
-    border: 2px solid #8ae3ff; /* Light blue border */
-    border-radius: 10px; /* Rounded corners */
+    padding: 5px; /* Adjust padding as needed */
+    border: 2px solid #8ae3ff; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block;
+    margin-bottom: 10px; /* Space between rows */
 }
 
 nav a:hover {
@@ -85,7 +87,7 @@ nav a:hover {
 }
 
 .picture_frame {
-    padding: 10px;
+    padding: 3px;
     background-color: #f0f0f0;
     border: 2px solid #ddd;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
