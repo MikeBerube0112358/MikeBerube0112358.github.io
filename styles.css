@@ -110,3 +110,8 @@ a:hover {
     margin-bottom: 20px;
     object-fit: contain; /* Scale the image to fit the container while maintaining the aspect ratio */
 }
+
+h2, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
