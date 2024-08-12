@@ -106,6 +106,7 @@ a:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
     border-radius: 8px;
-    max-width: 100%; /* Use max-width for responsiveness */
+    max-width: 100%; /* Ensure the image never exceeds the width of its container */
     margin-bottom: 20px;
+    width: auto; /* Allow the width to scale automatically */
 }
