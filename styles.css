@@ -108,5 +108,5 @@ a:hover {
     border-radius: 8px;
     max-width: 100%; /* Ensure the image never exceeds the width of its container */
     margin-bottom: 20px;
-    width: auto; /* Allow the width to scale automatically */
+    object-fit: contain; /* Scale the image to fit the container while maintaining the aspect ratio */
 }
