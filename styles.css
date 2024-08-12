@@ -18,49 +18,60 @@ header {
 }
 
 .header-container {
-    max-width: 800px; /* Limit the width of the header content */
-    margin: 0 auto; /* Center the header content */
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header h1 {
-    color: #0ceff3; /* Light Blue */
+    color: #0ceff3;
     font-size: 3em;
 }
 
 header h2 {
-    color: #cc99ff; /* Light purple color */
+    color: #cc99ff;
     font-size: 2em;
     margin-bottom: 1em;
 }
 
+/* Navigation Styling */
 nav {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 nav a {
-    color: #8ae3ff; /* Light blue color */
+    color: #8ae3ff;
     margin-right: 15px;
     text-decoration: none;
-    padding: 5px; /* Adjust padding as needed */
-    border: 2px solid #8ae3ff; /* Add border */
-    border-radius: 5px; /* Rounded corners */
+    padding: 5px;
+    border: 2px solid #8ae3ff;
+    border-radius: 5px;
     display: inline-block;
-    margin-bottom: 10px; /* Space between rows */
+    margin-bottom: 10px;
 }
 
 nav a:hover {
     text-decoration: underline;
-    border-color: #fff; /* Changes border color on hover */
+    border-color: #fff;
+}
+
+/* Global Anchor Styling */
+a {
+    color: #0cca32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Social Icons */
 .social {
-    text-align: center; /* Center social icons horizontally */
+    text-align: center;
 }
 
 .social a {
-    color: #8ae3ff; /* Light blue color */
+    color: #8ae3ff;
     font-size: 1.5em;
     margin-right: 10px;
     text-decoration: none;
@@ -70,13 +81,15 @@ nav a:hover {
     color: #fff;
 }
 
+/* Miscellaneous Section Headers */
 .misc h3, .dot-plan h3 {
-    color: #cc99ff; /* Light purple color */
+    color: #cc99ff;
 }
 
+/* Highlight Section */
 .highlight p {
     font-size: 2em;
-    color: #cc99ff; /* Light purple color */
+    color: #cc99ff;
 }
 
 /* Image Styling */
@@ -93,6 +106,6 @@ nav a:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
     border-radius: 8px;
-    width: 600px; /* Fixed width for all images */
+    max-width: 100%; /* Use max-width for responsiveness */
     margin-bottom: 20px;
 }
